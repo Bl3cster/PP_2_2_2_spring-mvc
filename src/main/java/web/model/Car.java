@@ -16,24 +16,12 @@ public class Car {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
     public float getEnjine() {
         return enjine;
-    }
-
-    public void setEnjine(float enjine) {
-        this.enjine = enjine;
     }
 
     @Override
